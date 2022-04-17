@@ -1,0 +1,12 @@
+.per_Img img{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+

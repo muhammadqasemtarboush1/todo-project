@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css">
+    <title>ToDo</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+         <div class="nav-logo"> <img src="./assets/logo.png" alt="TODO Logo"> 
+       <span class="title">ToDo</span></div>
+          <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <div>
+        <form action="http://" type="Post" name="addTodoForm" class="form">
+          <label for="todo">Add TODO </label>
+          <input id="todo" type="text" autocomplete="todo" />
+          <button  type="submit" >Add</button>
+        </form>
+        <hr>
+        <br>
+        <table>
+            <caption>ToDo tasks list and there status</caption>
+            <thead>
+               <tr>
+            <th scope="col">Task</th>
+            <th scope="col">Status</th>
+            </tr> 
+            </thead>
+            <tbody>
+                <tr>
+            <th scope="row">Go tp shoping</th>
+            <td>Pending</td>
+            </tr>
+            
+            <tr>
+            <th scope="row">Study Programing</th>
+            <td>Pending</td>
+            </tr>
+            <tr>
+                <th scope="row">Play Sports</th>
+                <td>Done</td>
+                </tr> 
+            </tbody>
+            </table>
+      </div>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <span><img src="./assets/footer_logo.png" alt="Logo" srcset=""></span>
+        </div>
+        <div>
+            &copy; 2022 - All rights reserved for Todo.ltd.</footer>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+header {
+  margin: 20px;
+}
+
+main {
+  background-color: #393a66;
+  text-align: center;
+}
+
+.form {
+  display: inline-grid;
+}
+
+input {
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.title {
+}
+table {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  max-width: 800px;
+  max-height: 800px;
+  display: inline-block;
+}
+
+table th,
+td {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* table tbody {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+} */
+
+li {
+  list-style: none;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  float: left;
+  color: #393a66;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav img {
+  width: 50%;
+  display: flex;
+}
+
+ul {
+  display: contents;
+  float: right;
+  /* display: flex; */
+  position: absolute;
+  /* float: right; */
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+}
+
+.nav-logo {
+    display: inherit;
+    position: relative;
+}
