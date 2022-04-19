@@ -1,3 +1,7 @@
+:root{
+    --textcolor: #ffffff
+}
+
 .per_Img img{
     max-width: 200px;
     height: 200px;
@@ -8,5 +12,33 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    color: var(--textcolor);
+    text-align: center;
 }
+
+
+.container {
+    height: 500px;
+    display: flex;
+    /* position: absolute; */
+    padding: 10px;
+
+}
+
+
+form {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+form > div {
+    flex: 1 0;
+}
+
+#submitHolder {
+    flex: 0 0 auto;
+    text-align: right;
+}
+
+
 
