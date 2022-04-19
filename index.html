@@ -10,13 +10,16 @@
   <body>
     <header>
       <nav class="nav">
-         <div class="nav-logo"> <img src="./assets/logo.png" alt="TODO Logo"> 
-       <span class="title">ToDo</span></div>
-          <ul>
+        
+           <img class="nav-logo" src="./assets/logo.png" alt="TODO Logo"> 
+          <span class="title">ToDo</span>
+           <ul class="navigation">
           <li><a href="#">Home</a></li>
           <li><a href="./about.html">About us</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
+       
+        
       </nav>
     </header>
     <hr>
@@ -39,29 +42,32 @@
             </thead>
             <tbody>
                 <tr>
-            <th scope="row">Go tp shoping</th>
-            <td>Pending</td>
+            <th scope="row" >Go tp shoping</th>
+            <td class="pending">Pending</td>
             </tr>
             
             <tr>
             <th scope="row">Study Programing</th>
-            <td>Pending</td>
+            <td class="pending">Pending</td>
             </tr>
             <tr>
                 <th scope="row">Play Sports</th>
-                <td>Done</td>
+                <td class="success" >Done</td>
                 </tr> 
             </tbody>
             </table>
       </div>
     </main>
     <hr>
-    <footer>
+    <footer class="footer-container">
         <div>
             <span><img src="./assets/footer_logo.png" alt="Logo" srcset=""></span>
         </div>
-        <div>
-            &copy; 2022 - All rights reserved for Todo.ltd.</footer>
+     </footer>
+        <div class="copyright">
+           <p>
+             &copy; 2022 - All rights reserved for Todo.ltd.
+           </p> 
         </div>
   </body>
 </html>
