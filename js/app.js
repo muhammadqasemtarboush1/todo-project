@@ -12,8 +12,8 @@ confirm("Do you want to see the welcome Message?")
 if (true && gender == "Male" || gender == "male") {
 
     alert(`Welcom Mr ${username}`)
-} else if (true && gender == "Female" || gender == "Female") {
+} else if (true && gender == "Female" || gender == "female") {
     alert(`Welcom Ms ${username}`)
-} else {
+} else if(true && gender == "Female" || gender == "female"|| gender == "Male" || gender == "male") {
     alert(`Welcome ${username}`)
 }
